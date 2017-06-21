@@ -1,0 +1,16 @@
+Version 1.0.7
+    Fixed a lot. Changed some structures.
+Version 1.0.6
+    Fixed tweaks, fixed resolvers.
+Version 1.0.5
+    Fixed tweaks, fixed resolvers.
+Version 1.0.4
+    Fixed tweaks, fixed resolvers.
+Version 1.0.3
+    Fixed Dependcy
+Version 1.0.2
+    Addapted for Krypton, some minor bug fix
+Version 1.0.1
+    minor bug fix
+Version 1.0.0
+    first relase

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.openhub"
+       name=" [COLOR green]OpenHub[/COLOR]"
+       version="1.0.0"
+       provider-name="[COLOR red][B]C0LD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="3.0.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="[COLOR green]OpenHub[/COLOR]">
+        <info compressed="false">https://offshoregit.com/c0ldfire/zip/addons.xml</info>
+        <checksum>https://offshoregit.com/c0ldfire/zip/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/c0ldfire/zip/</datadir>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">OpenHub</summary>
+	<description lang="en">[COLOR green]OpenHub[/COLOR] is the new Movie and TV Show add-on by [COLOR red][B]C0LD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]. Thanks to [COLOR royalblue]DandyMedia[/COLOR] for the help and the base add-on!</description>
+	<disclaimer lang="en">[COLOR red][B]The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners.[/B][/COLOR]</disclaimer>
+	<platform>all</platform>
+	<news>First release</news>
+  </extension>
+</addon>

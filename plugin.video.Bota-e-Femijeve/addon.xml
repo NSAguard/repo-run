@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Bota-e-Femijeve"
+       name="[COLOR red]Albania[/COLOR] [COLOR yellow]Land[/COLOR] of [COLOR royalblue]Eagles[/COLOR]"
+       version="1.0.3"
+       provider-name="[COLOR red][B]C0LD[/B][/COLOR][COLOR royalblue][B]FIRE[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+     <extension point="xbmc.addon.repository" name="AGENT 47">
+        <info compressed="false">https://offshoregit.com/c0ldfire/zip/addons.xml</info>
+        <checksum>https://offshoregit.com/c0ldfire/zip/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/c0ldfire/zip/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR cyan]Best of the best from[/COLOR] [COLOR red][B]C0LD[/B][/COLOR][COLOR royalblue][B]FIRE[/B][/COLOR]</summary>
+    <description>
+        [COLOR royalblue]O sa mire me qene[/COLOR] [COLOR red]SHQIPTAR![/COLOR]
+        [COLOR gold]Ketu do te gjeni[/COLOR]:
+             Kryeveprat boterore te filmave per femije te gjitha te dubluara ne gjuhen [COLOR red]SHQIPE[/COLOR], gjithashtu ketu do te gjeni dhe filma me titra ne gjuhen [COLOR red]SHQIPE[/COLOR].
+    </description>
+	<disclaimer lang="en">[COLOR red][B]The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.[/B][/COLOR]</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

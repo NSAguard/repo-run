@@ -1,0 +1,9 @@
+2017.01.28.1
+    - openload pair remove
+    - thevideo pair remove
+
+2016.07.30.2:
+    - openload fix - Code take from plugin IPTVPlayer: "https://gitlab.com/iptvplayer-for-e2/iptvplayer-for-e2/
+
+1.0.0
+This version is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver

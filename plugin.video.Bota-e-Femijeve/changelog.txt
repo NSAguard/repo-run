@@ -1,0 +1,8 @@
+Version 1.0.2
+    Moved to a faster server.
+Version 1.0.2
+    Fixed tweaks, fixed resolvers.
+Version 1.0.1
+    merged with albs sub movies
+Version 1.0.0
+    first relase
